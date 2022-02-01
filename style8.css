@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+ 
+background-color: #2c71b8;
+margin:0;
+padding:0;
+font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+
+
+}
+
+.header{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100px;
+    background-color:#CADBED;
+    
+}
+
+.block{
+    margin:0 auto;
+    width:1200px;
+    height: 100px;
+    background-color:none;
+}
+
+#logo{
+    width: 180px;
+    height: 30px;
+    position: relative;
+    left: -70px;
+    top:35px;
+    margin-left:70px;
+}
+
+ul .ul{
+    margin-left: 250px;
+    position: relative;
+    left: -20px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    
+}
+ul:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+li{
+    list-style: none;
+    float: left; 
+    
+    width: 142px;
+    text-align: center; 
+    
+}
+
+li a{
+    width: 142px;
+    text-decoration: none;
+    color:#2c71b8;
+    border-left:1px solid #2c71b8 ;
+    padding: 12px 35px 10px 35px;
+    
+}
+li .last{
+    border-right:1px solid #2c71b8 ;
+
+}
+
+#search{
+    width: 200px;
+    height:40px;
+    float: right;
+    position: relative;
+    top:-52px;
+    right:80px;
+    background-color: transparent;
+    border:1px solid #2c71b8;
+    padding-left: 10px;
+    font-size: 19px;
+}
+
+#search::placeholder{
+    color:#2c71b8;
+    
+
+}
+#logoSearch {
+    padding:10px;
+    float: right;
+    position:relative;
+    right:-160px;
+    top:-48px;
+    background-color: #2c71b8;
+}
+
+#logoBasket{
+    float: right;
+    position: relative;
+  left: 195px;
+    top:-53px;
+   padding:12px;
+    background-color: white;
+    
+}
+
+
+
+    
+
